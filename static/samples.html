@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- a static web page with some interesting diffs -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sample code diffs</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsdiff/4.0.2/diff.min.js" integrity="sha512-pziHjry6XY+CawObjF30gr/WqV3k+7YaBSH3F/YgdJw279osLLT2f2XNFXRb0umygwQPgHJ2vvJoLLLZYj3fzA==" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+
+        <style>
+            .d2h-file-header {
+                display:none
+            }
+        </style>
+
+        <script>
+            function make_diff(elem_id, student_code, correct_code) {
+                let diff = Diff.createTwoFilesPatch("student", "correct", student_code, correct_code, null, null, {context: 100});
+                let diffHtml = Diff2Html.html(diff, {
+                    drawFileList: false,
+                    //matching: 'words',
+                    outputFormat: 'side-by-side',
+                });
+                document.getElementById(elem_id).innerHTML = diffHtml;
+            }
+        </script>
+
+    </head>
+    <body>
+
+        <h1>middleElement</h1>
+        Given a non-empty list, l, return the middle element of that
+list. If the list has an even number of elements, return the
+middle-right element.
+        <hr/>
+        <div id='diff3' style="width:100%"></div>
+        <script>
+make_diff('diff3', `def middleElement(l):
+    if len(l)-1%2==0:
+        return len(l)-1%2
+    else:
+        return len(l)-1//2 +1
+`, `def middleElement(l):
+    if (len(l)-1)%2==0:
+        mid_index = (len(l)-1)//2
+    else:
+        mid_index = (len(l)-1)//2 +1
+    return l[mid_index]
+`)
+        </script>
+
+        <h1>anyLowercase</h1>
+        Given a string s, return True if any character in that string
+is lowercase (between 'a' and 'z'), and False otherwise.
+        <hr/>
+        <div id='diff5' style="width:100%"></div>
+        <script>
+make_diff('diff5', `import string
+
+def anyLowercase(s):
+    lst=[string.ascii_lowercase]
+    for elem in s:
+        if (elem in lst)==True:
+            return True
+        else:
+            return False
+`, `import string
+
+def anyLowercase(s):
+    lst=string.ascii_lowercase
+    for elem in s:
+        if (elem in lst)==True:
+            return True
+    return False
+`)
+        </script>
+
+        <h1>findRoot</h1>
+Recall the quadratic formula:
+<img src="http://www.kosbie.net/cmu/fall-13/15-112/handouts/quiz1_files/image002.jpg"/><br>.
+Using this formula, write the function find_root, which takes
+three parameters (a, b, and c) and returns the larger of the
+two values computed by the quadratic formula shown above.
+        <hr/>
+        <div id='diff4' style="width:100%"></div>
+        <script>
+make_diff('diff4', `import math
+
+def findRoot(a, b, c):
+    root = (-b + math.sqrt(b ** 2 - 4*a*c)) / 2*a
+    root2 = (-b - math.sqrt(b ** 2 - 4*a*c)) / 2*a
+    if root > root2:
+        return root
+    else:
+        return root2
+`, `import math
+
+def findRoot(a, b, c):
+    root = (-b + math.sqrt(b ** 2 - 4*a*c)) / 2/a
+    root2 = (-b - math.sqrt(b ** 2 - 4*a*c)) / 2*a
+    if root > root2:
+        return root
+    else:
+        return root2
+`)
+        </script>
+
+        <h1>reduceToPositive</h1>
+        Given a list of integers, return the same list only containing
+numbers that are positive.
+        <hr/>
+        <div id='diff2' style="width:100%"></div>
+        <script>
+make_diff('diff2', `def reduceToPositive(l):
+
+    for i in range(len(l):
+        if l[i]<0:
+            l.remove(l[i])
+    return l
+`, `def reduceToPositive(l):
+    newList = []
+    for i in range(len(l)):
+        if l[i] > 0:
+            newList.append(l[i])
+    return newList
+`)
+        </script>
+
+        <h1>sumOfDigits </h1>
+        Given a number n, return the sum of n's digits.
+        <br/>
+        <h2>Generated Solution</h2>
+        <div id='diff1a' style="width:100%"></div>
+        <script>
+make_diff('diff1a', `def sumOfDigits(n):
+    i=0
+    summation=0
+    while i<=nsize(n):
+        r=n//(10**(n-i-1))
+        remain= r%10
+        summation+=remain
+    return summation`,`def sumOfDigits(n):
+    i = abs(n)
+    summation = 0
+    while n > 0:
+        r = n % 10
+        n = n // 10
+        summation += r
+    return summation
+`)
+        </script>
+        <h2>Alternative(better?) Solution</h2>
+        <div id='diff1b' style="width:100%"></div>
+        <script>
+make_diff('diff1b', `def sumOfDigits(n):
+    i=0
+    summation=0
+    while i<=nsize(n):
+        r=n//(10**(n-i-1))
+        remain= r%10
+        summation+=remain
+    return summation`,`def sumOfDigits(n):
+    i=0
+    summation=0
+    while i<len(str(n)):
+        r=n//(10**(len(str(n))-i-1))
+        remain= r%10
+        summation+=remain
+        i+=1
+    return summation
+`)
+        </script>
+    </body>
+</html>

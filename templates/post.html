@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="/static/survey.css" />
+
+    <title>Post survey</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Thank you!</h2>
+        <div>
+            Just a couple more questions:
+        </div>
+        <form method="post">
+            <!-- TODO: on submit, go to "thank you" screen-->
+            <div>
+                What was the most helpful part of the interface as you were trying to identify the problems with the student code?
+                <br/>
+                <textarea cols="80" rows="5" name="helpful" required></textarea>
+            </div>
+            <div>
+                What was the hardest or most cumbersome part of the task?
+                <br/>
+                <textarea cols="80" rows="5" name="hardest" required></textarea>
+            </div>
+            <input type="submit"/>
+        </form>
+    </div>
+</body>
+</html>

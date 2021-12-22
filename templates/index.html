@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/static/survey.css" />
+        <title>CSE Teaching Assistant Study</title>
+    </head>
+<body>
+    <div id="container">
+        <h2>CSE Teaching Assistant Study</h2>
+        <div>
+            Thank you for participating in our study!
+        </div>
+        <div>
+            In this study, you will take on the role of a Teaching Assistant in an introductory Python programming class.
+            You will be using a web interface to help students debug their code.
+            On each screen, you will see the problem statement for a programming problem, and a student's incorrect solution to that problem.
+            You will be asked to fix the student code, then write an explanation of what was wrong with it.
+            Please do this for as many problems as you can within the time limit.
+        </div>
+        <!--
+        This is meant to imitate student/TA interaction in office hours or email: helping, not testing.
+        write an explanation of what was wrong with it *to help the student*
+
+        Feel free to use any resources you would normally use when helping a student debug their code
+
+        The automatically generated solution passes unit tests, but may not be optimal
+        -->
+        <div>
+            Before you begin, please answer the following questions about your background and experience.
+        </div>
+        <div>
+            After one hour, you will also answer a few follow-up questions about the interface you were using.
+        </div>
+
+        <form action="/problem" method="post">
+            <div>
+                Have you ever been a Teaching Assistant for a CSE course before?
+                If you have, then for how many total semesters?
+                <br/>
+                <input type="radio" name="TA_exp" value="0" required> 0: I haven't been a TA yet<br/>
+                <input type="radio" name="TA_exp" value="1"> 1: I have been a TA once<br/>
+                <input type="radio" name="TA_exp" value="2"> 2: I have been a TA for two semesters<br/>
+                <input type="radio" name="TA_exp" value="many"> >2: I have been a TA for more than two semesters<br/>
+            </div>
+            <div>
+                How much experience do you have with Python?
+                <br/>
+                <input type="radio" name="python_exp" value="0" required> None: never tried it<br/>
+                <input type="radio" name="python_exp" value="1"> A little: I have used it once or twice<br/>
+                <input type="radio" name="python_exp" value="2"> Some: I have used it before, but am not extremely comfortable with it<br/>
+                <input type="radio" name="python_exp" value="2"> Lots: I am quite comfortable with Python<br/>
+            </div>
+            <input type="submit"/>
+        </form>
+    </div>
+
+</body>
+</html>

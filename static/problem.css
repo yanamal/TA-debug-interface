@@ -1,0 +1,41 @@
+#editor {
+    width:100%;
+    border: 1px gray solid;
+}
+
+.d2h-file-header {
+    display:none
+}
+
+#container {
+    height: calc(100vh - 20px);
+    /* width: 100vw; */
+
+    display: flex;
+    flex-direction: column;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#problem_area {
+    /* width: 65%; */
+    display: block;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    /* vertical-align: top; */;
+}
+
+#task_area {
+    /* width: 65%; */
+    display: block;
+    height:auto;
+    overflow-y:scroll;
+    flex-grow: 1;
+    /* vertical-align: top; */
+}

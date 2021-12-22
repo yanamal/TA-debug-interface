@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fix student solution</title>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsdiff/4.0.2/diff.min.js" integrity="sha512-pziHjry6XY+CawObjF30gr/WqV3k+7YaBSH3F/YgdJw279osLLT2f2XNFXRb0umygwQPgHJ2vvJoLLLZYj3fzA==" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+        <link rel="stylesheet" type="text/css" href="/static/problem.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    </head>
+    <body>
+        <div id="version_modal" class="modal">
+            <h1>Interface version {{ problem_i // 4 + 1}}</h1>
+            <p>
+                The next 4 problems will all use this version of the interface
+            </p>
+            <button onclick="$.modal.close()">OK</button>
+        </div>
+
+        <div id="container">
+            <div id="problem_area">
+                <div style="float:right"><h2 id="timer" >7:00</h2></div>
+                <h3>Problem statement:</h3>
+                <div id='problem'>{{ problem_desc|safe }}</div>
+
+                <h3>(Incorrect) student solution:</h3>
+                <div id='diff' style="width:100%"></div>
+
+                <div style="width:50%;padding:10px">
+                    <div id="studentcode"></div>
+                </div>
+
+            </div>
+            <div id="task_area">
+                <form method="post">
+                    <h2>Tasks</h2>
+                    <h3>1. Fix the code</h3>
+                    In the code editor below, edit the student solution until it is correct.
+                    Try to preserve the original intent of the code as much as possible.
+                    Use the "Test" button to run the unit tests and check for correctness.
+
+                    <div style="width:50%;padding:10px;">
+                        <div id="editor"></div>
+                    </div>
+
+                    <input type="hidden" name="code_contents" id="code_contents"/>
+
+                    <div id="warning" style="display:none;color:red">8 minutes have elapsed. Consider moving on to the Explanation part.</div>
+
+                    <button type="button" id="test_button" onclick="run_unit_tests()">Test</button>
+                    <br/>
+                    <input type="text" style="opacity:0;font-size:1px;height:1px;padding:0px;border:0px" name="is_correct" id="is_correct" value="false"/>
+                    <table id="unit_tests" border=1>
+                        <tr>
+                            <th>Test case</th>
+                            <th>Expected output</th>
+                            <th>Actual output</th>
+                        </tr>
+                    </table>
+
+                    <!--
+                    <input type="checkbox" name="unnecessary_corrections"> includes unnecessary corrections
+                    <br/>
+                    <input type="checkbox" name="different_intent"> could do better at preserving student intent
+                    <br/>
+                    <input type="checkbox" name="bad_idea"> fix is a bad idea
+                    (worse than the student's original intent/idea - introduces a new bad idea)
+                    <br/><br/>
+                    <input type="checkbox" name="fuzzy_intent"> student intent is arguably fuzzy/unclear
+                    (no correct solution which preserves student intent)
+                    -->
+
+                    <br/>
+                    <input type="hidden" value="{{ CodeStateID }}" name="code_state_id">
+
+                    <h3>2. Explain the error</h3>
+                    Imagine you are writing an email to the student who wrote this incorrect code.
+                    Explain to them why their solution is incorrect, and what they could do to fix it, without giving away the actual answer.
+                    <br/>
+                    <textarea id="explanation" name="explanation" rows="5" cols="80" required></textarea>
+
+                    <h3>3. (Optional) Recommend review topic</h3>
+                    Based on the errors made in the student code, is there a specific topic or concept you would recommend for the student to review?
+                    <br/>
+                    <textarea id="review" name="review" rows="1" cols="80"></textarea>
+                    <br/>
+                    <button>Submit</button>
+                    <div style="height:50vh">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+// Test inputs:
+student_code = `{{ student_code|safe }}
+`
+
+correct_code = `{{ correct_code|safe }}
+`
+
+problem_name = '{{ problem_name}}'
+
+problem_data = {{ problem_data|safe }}
+
+is_control = {{ control }}
+
+show_diff = {{ show_diff }}
+
+p_i = {{ problem_i }}
+
+        </script>
+        <script src="/static/problem.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

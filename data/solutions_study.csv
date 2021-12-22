@@ -1,0 +1,157 @@
+CodeStateID,code,solution,bad_solution,problem,issue,dist
+1813,"def sumOfDigits(n):
+    i=0
+    summation=0
+    while i<=nsize(n):
+        r=n//(10**(n-i-1))
+        remain= r%10
+        summation+=remain
+    return summation","def sumOfDigits(n):
+    i=0
+    summation=0
+    while i<len(str(n)):
+        r=n//(10**(len(str(n))-i-1))
+        remain= r%10
+        summation+=remain
+        i+=1
+    return summation
+","def sumOfDigits(n):
+    i = abs(n)
+    summation = 0
+    while n > 0:
+        r = n % 10
+        n = n // 10
+        summation += r
+    return summation
+",sumOfDigits,large,17
+1833,"def middleElement(l):
+	if len(l)-1%2==0:
+	    return len(l)-1%2
+	else:
+	    return len(l)-1//2 +1","def middleElement(l):
+    if (len(l)-1)%2==0:
+	    mid_index = (len(l)-1)//2
+    else:
+	    mid_index = (len(l)-1)//2 +1
+    return l[mid_index]","def middleElement(l):
+    length = len(l)
+    if len(l) / (1 % 2) == 0:
+        return len(l) - 1 % 2
+    else:
+        return l[length // 2]
+",middleElement,large,32
+2354,"import string
+def anyLowercase(s):
+    for i in range(len(s)):
+        if (s[i] not in string.ascii_lowercase):
+            return False
+    return True","import string
+def anyLowercase(s):
+    for i in range(len(s)):
+        if (s[i] in string.ascii_lowercase):
+            return True
+    return False
+","import string
+
+
+def anyLowercase(s):
+    for i in s:
+        if i in string.ascii_lowercase:
+            return True
+    return False
+",anyLowercase,large,4
+1546,"def nearestBusStop(street):
+    if street % 8 == 0:
+        stop = street
+    if street % 8 <= 4:
+        stop = street
+    if street % 8 > 4:
+        stop = street +1
+    return stop","def nearestBusStop(street):
+    if street % 8 == 0:
+        stop = street
+    if street % 8 <= 4:
+        stop = street - street % 8
+    if street % 8 > 4:
+        stop = street - street % 8 + 8
+    return stop","def nearestBusStop(street):
+    if street % 8 > 4:
+        stop = street
+    if street % 8 > 4:
+        return street + 8 - street % 8
+    else:
+        return street - street % 8
+",nearestBusStop,large,12
+1371,"def howManyEggCartons(eggs):
+    quad = eggs // 12
+    if quad % 2 != 0:
+        return quad + 1
+    else:
+        return quad","def howManyEggCartons(eggs):
+    quad = eggs // 12
+    if eggs % 12 != 0:
+        return quad + 1
+    else:
+        return quad","def howManyEggCartons(eggs):
+    quad = eggs // 12
+    if eggs % 2 != 0:
+        return quad + 1
+    else:
+        return quad
+",howManyEggCartons,small,2
+2235,"def listOfLists(l):
+    listSet = set()
+    lst = []
+    for i in range(len(l)):
+        for k in range(len(l[i])):
+            listSet.add(l[i][k])
+    for num in listSet:
+        lst += [num]
+    return lst","def listOfLists(l):
+    listSet = set()
+    lst = []
+    for i in range(len(l)):
+        for k in range(len(l[i])):
+            listSet.add(l[i][k])
+    for num in listSet:
+        lst += [num]
+    return sorted(lst)","def listOfLists(l):
+    listSet = set()
+    for lst in l:
+        for elem in lst:
+            listSet.add(elem)
+    lst = []
+    for num in listSet:
+        lst += [num]
+    return sorted(list(listSet))
+",listOfLists,small,4
+1853,"def secondHalf(l):
+    lst=[]
+    for i in range(len(l)):
+        if i>=(len(l)-1)//2:
+            lst.append(l[i])
+    return lst","def secondHalf(l):
+    lst=[]
+    for i in range(len(l)):
+        if i>=len(l)//2:
+            lst.append(l[i])
+    return lst","def secondHalf(l):
+    lst = len(l)
+    for i in range(len(l)):
+        if i >= 0:
+            return l[lst // 2:lst]
+    return l[(lst - 1) // 2:lst]
+",secondHalf,small,3
+1248,"def hasTwoDigits(x):
+    if x >= 10:
+	    return True","def hasTwoDigits(x):
+    if 10 <= x <= 99:
+        return True
+    else:
+        return False
+","def hasTwoDigits(x):
+    if 1 <= x//10 < 10:
+	    return True
+    else:
+        return False
+",hasTwoDigits,small,10

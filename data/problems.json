@@ -1,0 +1,2617 @@
+{
+    "names": [
+        "oneToN",
+        "helloWorld",
+        "isPrime",
+        "doubleX",
+        "raiseToPower",
+        "convertToDegrees",
+        "findRoot",
+        "intToFloat",
+        "leftoverCandy",
+        "howManyEggCartons",
+        "kthDigit",
+        "nearestBusStop",
+        "overNineThousand",
+        "hasTwoDigits",
+        "canDrinkAlcohol",
+        "isEvenPositiveInt",
+        "carefulSquareRoot",
+        "castString",
+        "stockChange",
+        "sumOfDigits",
+        "createNumberBlock",
+        "backwardsCombine",
+        "firstAndLast",
+        "isPunctuation",
+        "isSubstring",
+        "singlePigLatin",
+        "anyLowercase",
+        "middleElement",
+        "factorial",
+        "gcd",
+        "fibonacci",
+        "secondHalf",
+        "reduceToPositive",
+        "treasureHunt",
+        "listOfLists",
+        "mostAnagrams",
+        "friendOfFriends",
+        "findTheCircle"
+    ],
+    "urls": [
+        "http://cloudcoder.org/repo/exercisedata/745063806115df06274a9cc74b8110689c94c567",
+        "http://cloudcoder.org/repo/exercisedata/e26b40fb5312ff24b69b6e530274a4aaa47343f7",
+        "http://cloudcoder.org/repo/exercisedata/2b30fdf65659aff88df049ebf9e1268551c20a9b",
+        "http://cloudcoder.org/repo/exercisedata/4c056dd98047daff525f94bbbd20988a69628610",
+        "http://cloudcoder.org/repo/exercisedata/57dce8ec0b5da6a711dfff4fe895bfec7bb74313",
+        "http://cloudcoder.org/repo/exercisedata/fb1254f56c4960a54db02623e865d15c931b00ee",
+        "http://cloudcoder.org/repo/exercisedata/1a5d12960f3b43bf643c83bf763e2ad12cffa617",
+        "http://cloudcoder.org/repo/exercisedata/7a789ec9857540aca72ee3fbcc4971c7b9d8844f",
+        "http://cloudcoder.org/repo/exercisedata/acaa7a4359629d408e2640013161964cd8ce3b53",
+        "http://cloudcoder.org/repo/exercisedata/ea007e160a988c2dd922d498b71b4aa978ee879a",
+        "http://cloudcoder.org/repo/exercisedata/ca364e8a843d403c4ba6e739af80923873e87bc2",
+        "http://cloudcoder.org/repo/exercisedata/c4c95041b6ce170d843c21f0b986df773fa44e27",
+        "http://cloudcoder.org/repo/exercisedata/92a4fea34eec0e8973c8ba53353a90342b36e363",
+        "http://cloudcoder.org/repo/exercisedata/319f76420cdae9c9d1f6f273ebaf41bcb5a4ab70",
+        "http://cloudcoder.org/repo/exercisedata/0848da9f83c8fbb12d61eeb018844f6824c573a4",
+        "http://cloudcoder.org/repo/exercisedata/ccc02e7634ce8fec86caf81a060b82a6cbc1c002",
+        "http://cloudcoder.org/repo/exercisedata/b213f3511b2bb6103e70b2b34f7e28014f4d6fc0",
+        "http://cloudcoder.org/repo/exercisedata/6acbd4634f0814f56c19df676d36f23f3a2338fd",
+        "http://cloudcoder.org/repo/exercisedata/0a9693a8bce5da0f65c7a5f1457c541f0e88df63",
+        "http://cloudcoder.org/repo/exercisedata/2f8f416d59fb6f53b80ed812c8bce24cd6d70366",
+        "http://cloudcoder.org/repo/exercisedata/607c0bfc85a384988335bc9fc652a740ac3f9d56",
+        "http://cloudcoder.org/repo/exercisedata/cf8b4bb95ba9d5db69d53056061f6dcd9120cac9",
+        "http://cloudcoder.org/repo/exercisedata/6ffc8fea4fab54c9859866f423916f9a5cc3c798",
+        "http://cloudcoder.org/repo/exercisedata/a14bb465c6f9d7ddde8cf2403a7f4014cb358fa1",
+        "http://cloudcoder.org/repo/exercisedata/ce5861bc246115e435ac8d68ad265c940d3400f6",
+        "http://cloudcoder.org/repo/exercisedata/d635bf4dc9bf44a1051888f9cc99e4c33e60c1ce",
+        "http://cloudcoder.org/repo/exercisedata/61519c519944b0b858f56daf17ed27887db1664e",
+        "http://cloudcoder.org/repo/exercisedata/917c3246ae03a9663e9a7794fe98ac30568115f8",
+        "http://cloudcoder.org/repo/exercisedata/d0ceb645d3a80e0bb6e1f4a0716252a7f48af87a",
+        "http://cloudcoder.org/repo/exercisedata/884db13b804d0bc035566f05211d1610e5c6011f",
+        "http://cloudcoder.org/repo/exercisedata/fdc805db2688acd2ed341246831e49418a9fb207",
+        "http://cloudcoder.org/repo/exercisedata/3445c3c5be006fdfa40c6738d6879c732b059c9f",
+        "http://cloudcoder.org/repo/exercisedata/e31f451d5ab0a538c2bd92bae0a88282727e57df",
+        "http://cloudcoder.org/repo/exercisedata/844d4915cae46a2019358e5afc943397ddcd513b",
+        "http://cloudcoder.org/repo/exercisedata/1ea84d29a3ac9788b0905f8c38ac6818dee860d7",
+        "http://cloudcoder.org/repo/exercisedata/b8c5e9bbfa09de9d3f911fab0ddfd52292973438",
+        "http://cloudcoder.org/repo/exercisedata/5d9a7b0e37157defa2a8b255a894b3495fed477d",
+        "http://cloudcoder.org/repo/exercisedata/e00ba3876286c15a19777f0465338cd3c09ac635",
+        "http://cloudcoder.org/repo/exercisedata/0affdfef07700ef61c1f0f683e4fb3e81ddacaa5",
+        "http://cloudcoder.org/repo/exercisedata/d6ea5a8d523b034d8c171d14ff1f6b02b5c6b9a2",
+        "http://cloudcoder.org/repo/exercisedata/fd088368493a0044d787f16ebbd55247469540bf",
+        "http://cloudcoder.org/repo/exercisedata/0dd49c738864f8fe9594b10cc77099f083d21474",
+        "http://cloudcoder.org/repo/exercisedata/04a69d4ff493965e8323e2f77ab027c9da4219f5",
+        "http://cloudcoder.org/repo/exercisedata/3989531fe764c14b2b37dd69b7630c8336c80d59",
+        "http://cloudcoder.org/repo/exercisedata/f283db3722d97d32a30a6a6da9b3ec783e5d4a56",
+        "http://cloudcoder.org/repo/exercisedata/f425a092d5404883ddec70e759ae5ebba202b754",
+        "http://cloudcoder.org/repo/exercisedata/d90cae3f6c465ba60858fd2d4b76f6eb849324c6",
+        "http://cloudcoder.org/repo/exercisedata/b26d029f7ef44d5c15c2da4d9a6bd28d7fd19e31",
+        "http://cloudcoder.org/repo/exercisedata/aafedd31401d2cbac11f43039aa9116b7f794e5b",
+        "http://cloudcoder.org/repo/exercisedata/c84a250b3d0a3a139a3b4de132e6e2c361dca789",
+        "http://cloudcoder.org/repo/exercisedata/c40e3d533ca4cd6012bc79c2536373a0c6d713ff",
+        "http://cloudcoder.org/repo/exercisedata/14b31a10ff59ac2cfe4a0c8645af9255a839ef88",
+        "http://cloudcoder.org/repo/exercisedata/ca790915b916c45b2d0029bf51b462b2fa4ff466",
+        "http://cloudcoder.org/repo/exercisedata/b615544296ca6f55d732aa07edf996d2a792238f",
+        "http://cloudcoder.org/repo/exercisedata/a18d9cae356f52ea0b9b178d3e3275063da7be25"
+    ],
+    "unit_tests": {
+        "castString": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "cast_string",
+                "brief_description": "if-else,types",
+                "description": "Given a string and a boolean, return the string cast to an \ninteger if the boolean is true, or the string unchanged if it \nis false.",
+                "skeleton": "def cast_string(s, as_number):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "'5', True",
+                    "output": "5",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "'77', False",
+                    "output": "'77'",
+                    "secret": false
+                }
+            ]
+        },
+        "stockChange": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "stock_change",
+                "brief_description": "if-elif-else,numbers,strings,relational-ops",
+                "description": "Given a percentage change in a stock (as a number), return \nwhether that stock is 'Up' (positive), 'Down' (negative), or \nhas 'No Change' (zero).",
+                "skeleton": "def stock_change(percent_change):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "-0.4",
+                    "output": "'Down'",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1.8",
+                    "output": "'Up'",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "0",
+                    "output": "'No Change'",
+                    "secret": false
+                }
+            ]
+        },
+        "anyLowercase": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "any_lowercase",
+                "brief_description": "for-loop,if-exists,if,relational-ops,strings",
+                "description": "Given a string s, return True if any character in that string \nis lowercase (between 'a' and 'z'), and False otherwise.",
+                "skeleton": "def any_lowercase(s):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "\"abcde\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"ABCDE\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "\"ABcDE\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "\"ABCDe\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "\"A\"",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isPrime": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "is_prime",
+                "brief_description": "for-loop,for-all,if,range,modulus,numbers",
+                "description": "Given a number n which is greater than 1, determine whether \nthat number is prime. This is true if all numbers less than n \n(but greater than 1) do not divide n equally.",
+                "skeleton": "def is_prime(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "21",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "23",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "2",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "9",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "middleElement": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "middle_element",
+                "brief_description": "1D-list,list-index",
+                "description": "Given a non-empty list, l, return the middle element of that \nlist. If the list has an even number of elements, return the \nmiddle-right element.",
+                "skeleton": "def middle_element(l):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[1,2,3]",
+                    "output": "2",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[6]",
+                    "output": "6",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[2,9,1,0]",
+                    "output": "1",
+                    "secret": false
+                }
+            ]
+        },
+        "secondHalf": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "second_half",
+                "brief_description": "1D-list,list-slice",
+                "description": "Given a list l, return the second half of that list. If the \nlist has an odd number of elements, include the middle element.",
+                "skeleton": "def second_half(l):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[1,2,3]",
+                    "output": "[2,3]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[6]",
+                    "output": "[6]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[2,9,1,0]",
+                    "output": "[1,0]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "[]",
+                    "output": "[]",
+                    "secret": false
+                }
+            ]
+        },
+        "reduceToPositive": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "reduce_to_positive",
+                "brief_description": "while-loop,1D-list,relational-ops,list-index,numbers",
+                "description": "Given a list of integers, return the same list only containing \nnumbers that are positive.",
+                "skeleton": "def reduce_to_positive(l):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[1,3,-5,2]",
+                    "output": "[1,3,2]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[-3,-2,1]",
+                    "output": "[1]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[-4]",
+                    "output": "[]",
+                    "secret": false
+                }
+            ]
+        },
+        "treasureHunt": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "treasure_hunt",
+                "brief_description": "1D-list,while-loop,conditional,relational-ops,strings",
+                "description": "<p>You just received a very unusual treasure map, and you want \nto determine whether it will actually lead you to a pile of gold.\nTo follow the map (which is given to you as a list), you need to\nstart at index 0, then jump to the position in the list \nindicated by the number at that index. You'll continue following\nthese indicies until you reach an \"X\", which, of course, marks\nthe treasure spot! In the case where this happens, return \n<b>'treasure'</b>.</p>\n\n<p>But be careful, not all treasure maps lead to the real \nthing. Some may lead to non-treasure strings (for which you \nshould return <b>'trap'</b>), and others may try to lead you \noutside the bounds of the list (which will lead you on a \n<b>'trip'</b>). Finally, some maps may lead you in circles \ninfinitely (which is certainly a <b>'trick'</b>).\nHappy hunting!</p>",
+                "skeleton": "def treasure_hunt(map):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[4,6,7,\"X\",2,\"sinkhole\",1,3]",
+                    "output": "\"treasure\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[4,6,7,\"X\",2,\"sinkhole\",1,5]",
+                    "output": "\"trap\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[5,4,1,7,2,3,\"X\"]",
+                    "output": "\"trip\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "[\"X\"]",
+                    "output": "\"treasure\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "[2,4,5,\"X\",2,1,\"kraken\"]",
+                    "output": "\"trick\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t5",
+                    "input": "[3,4,5,\"X\",2,1,\"kraken\"]",
+                    "output": "\"treasure\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t6",
+                    "input": "[2,\"X\",-1]",
+                    "output": "\"trip\"",
+                    "secret": false
+                }
+            ]
+        },
+        "mostAnagrams": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "most_anagrams",
+                "brief_description": "for-loop,conditional,1D-list,strings",
+                "description": "Write a function that takes a list of words (all lowercase) \nand returns the word in the list that has the most anagrams \nof itself following it in the list. If there are ties, return \nthe word that occurs earlier.",
+                "skeleton": "def most_anagrams(word_list):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "['food', 'hello', 'easy']",
+                    "output": "'food'",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "['odfo', 'ball', 'doof']",
+                    "output": "'odfo'",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "['wall', 'eerie', 'polo', 'pool']",
+                    "output": "'polo'",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "['boro', 'wash', 'xray', 'raxy', 'robo']",
+                    "output": "'boro'",
+                    "secret": false
+                }
+            ]
+        },
+        "factorial": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "factorial",
+                "brief_description": "recursion,numbers",
+                "description": "The factorial of a number (n!) is n*(n-1)*...*3*2*1. Compute \nthe factorial of a given number using recursion.",
+                "skeleton": "def factorial(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "1",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "5",
+                    "output": "120",
+                    "secret": false
+                }
+            ]
+        },
+        "fibonacci": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "fibonacci",
+                "brief_description": "recursion,numbers",
+                "description": "Given a number, n, computer the nth fibonacci number. The \nfibonacci numbers are the sequence of numbers where the first \nnumber is 1, the second is 1, and then each following number is \nthe sum of the two numbers that precede it.",
+                "skeleton": "def fibonacci(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "1",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "2",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "3",
+                    "output": "2",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "7",
+                    "output": "13",
+                    "secret": false
+                }
+            ]
+        },
+        "power_set": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "power_set",
+                "brief_description": "recursion,1D-list,2D-list,for-loop,list-index,list-slice",
+                "description": "The power set of a list is the list of all subsets of the set \nof items in the list. So for the list [1,2,3], the power set \nwould be [[], [1], [2], [3], [1,2], [1,3], [2,3], [1,2,3]]. It's\neasiest to compute a power set using recursion. NOTE- to \nfacilitate testing, please sort the result before returning.",
+                "skeleton": "def power_set(l):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[1,2,3]",
+                    "output": "[[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[4, 5]",
+                    "output": "[[], [4], [4,5], [5]]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[9]",
+                    "output": "[[], [9]]",
+                    "secret": false
+                }
+            ]
+        },
+        "gcd": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "gcd",
+                "brief_description": "recursion,numbers,modulus,problem-solving",
+                "description": "Given two integers, x and y, compute the GCD of x and y. \nGCD stands for 'greatest common denominator'. Hint: You can \ncompute this in a fairly clever and simple way through the use \nof recursion.",
+                "skeleton": "def gcd(x, y):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "21,14",
+                    "output": "7",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1,7",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "28,6",
+                    "output": "2",
+                    "secret": false
+                }
+            ]
+        },
+        "listOfLists": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "list_of_lists",
+                "brief_description": "sets,1D-list,2D-list",
+                "description": "Given a list of lists, return a new (1D) list that contains all\nof the elements present in the original lists, with no \nduplicates. This single list should be sorted according to the\nbuilt-in Python sort method. Hint: This problem becomes fairly\nsimple if you use sets!",
+                "skeleton": "def list_of_lists(l):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[[2, 4, 7, 2, 9], [10, 34, 2, 9], [30, 1, 0] ]",
+                    "output": "[0, 1, 2, 4, 7, 9, 10, 30, 34]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[[\"boom\", \"badda\", \"boom\"], [\"let's\", \"go\", \"marching\", \"on\"], [\"let's\", \"watch\", \"on\", \"boom\"]]",
+                    "output": "[\"badda\", \"boom\", \"go\", \"let's\", \"marching\", \"on\", \"watch\"]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[[\"a\", \"b\", \"a\", \"b\"]]",
+                    "output": "[\"a\", \"b\"]",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "[]",
+                    "output": "[]",
+                    "secret": false
+                }
+            ]
+        },
+        "findTheCircle": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "find_the_circle",
+                "brief_description": "tuple,1D-list,2D-list",
+                "description": "<p>Somewhere in the given 2D array, a circle is hiding. Find the\nindex where the 'o' is located, then return its position as a\ntuple in terms of x and y coordinates (not array indicies!).\nIf there is no 'o', return (-1, -1).</p>\n\n<p>Remember- x increases from the left to the right, and y\nincreases from the bottom to the top. For this array, the\nbottom left corner is (0, 0).</p>",
+                "skeleton": "def find_the_circle(l):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "[['a', 'b', 'c'],  ['x', 'y', 'o'],  ['m', 'n', 'p']]",
+                    "output": "(2,1)",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "[['o'],  ['w'],  ['w']]",
+                    "output": "(0,2)",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "[['1', '2', '3', '4'],  ['5', 'o', '6', '7'],  ['8', '9', '10', '11']]",
+                    "output": "(1,1)",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "[['a', 'b', 'c'], ['d', 'e', 'f']]",
+                    "output": "(-1,-1)",
+                    "secret": false
+                }
+            ]
+        },
+        "invert_dictionary": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "invert_dictionary",
+                "brief_description": "dictionary,sets",
+                "description": "Write a function that takes a dictionary d that maps keys to \nvalues and returns a dictionary of its inverse, that maps the \noriginal values back to their keys. One complication: there can \nbe duplicate values in the original dictionary. That is, there \ncan be keys k1 and k2 such that (d[k1] == v) and (d[k2] == v) \nfor the same value v. In that case, what should inverseD[v] \nequal? Answer: map the original values back to the set of keys\nthat originally mapped to them. Thus, in this example, \ninverseD[v] maps to a set containing both s1 and s2.",
+                "skeleton": "def invert_dictionary(d):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "{ \"up\" : \"down\", \"left\" : \"right\", \"happy\" : \"down\", \"wrong\" : \"right\", \"first\" : \"last\" }",
+                    "output": "{\"down\" : set([\"up\", \"happy\"]), \"right\" : set([\"left\", \"wrong\"]), \"last\" : set([\"first\"]) }",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "{ \"one\" : \"two\" }",
+                    "output": "{\"two\" : set([\"one\"]) }",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "{ \"this\" : \"that\", \"mac\" : \"that\", \"all\" : \"that\", \"wow\" : \"that\", \"beep\" : \"boop\" }",
+                    "output": "{ \"that\" : set([\"this\", \"mac\", \"all\", \"wow\"]), \"boop\" : set([\"beep\"]) }",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "{}",
+                    "output": "{}",
+                    "secret": false
+                }
+            ]
+        },
+        "friendOfFriends": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "friend_of_friends",
+                "brief_description": "dictionary,sets,for-loop",
+                "description": "<p>We can create a dictionary mapping people to sets of their \nfriends. For example, we might say:</p>\n\n<p>d[\"fred\"] = set([\"wilma\", \"betty\", \"barney\", \"bam-bam\"])<br>\nd[\"wilma\"] = set([\"fred\", \"betty\", \"dino\"])</p>\n\n<p>With this in mind, write a function that takes such a \ndictionary mapping people to sets of friends and returns a new\ndictionary mapping all the same people to sets of their friends\nof friends. For example, since wilma is a friend of fred, and\ndino is a friend of wilma, dino is a friend-of-friend of fred.\nThis set should exclude any direct friends, so even though betty\nis also a friend of wilma, betty does not count as a\nfriend-of-friend of fred (since she is simply a friend of fred).\nThus, in this example, Fred's 'friends-of-friends' is a set\ncontaining just \"dino\" and Wilma's 'friends-of-friends' is a\nset containing both \"barney\" and \"bam-bam\". Also, do not\ninclude anyone either in their own set of friends or their own\nset of friends-of-friends. You may assume that everyone listed\nin any of the friend sets also is included as a key in the\ndictionary.</p>",
+                "skeleton": "def friend_of_friends(d):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "{ \"kaladin\" : set([\"shallan\", \"adolin\", \"syl\"]), \"shallan\" : set([\"kaladin\", \"adolin\", \"pattern\"]), \"adolin\" : set([\"kaladin\", \"shallan\"]), \"syl\" : set([\"kaladin\"]), \"pattern\" : set([\"shallan\"]) }",
+                    "output": "{ \"kaladin\" : set([\"pattern\"]), \"shallan\" : set([\"syl\"]), \"adolin\" : set([\"syl\", \"pattern\"]), \"syl\" : set([\"shallan\", \"adolin\"]), \"pattern\" : set([\"kaladin\", \"adolin\"]) }",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "{ \"fred\" : set([\"wilma\", \"betty\", \"barney\", \"bam-bam\"]), \"wilma\" : set([\"fred\", \"betty\", \"dino\"]), \"betty\" : set([\"fred\", \"wilma\"]), \"barney\" : set([\"fred\", \"dino\"]), \"bam-bam\" : set([\"fred\"]), \"dino\" : set([\"wilma\", \"fred\"]) }",
+                    "output": "{ \"fred\" : set([\"dino\"]), \"wilma\" : set([\"barney\", \"bam-bam\"]), \"betty\" : set([\"barney\", \"bam-bam\", \"dino\"]), \"barney\" : set([\"wilma\", \"betty\", \"bam-bam\"]), \"bam-bam\" : set([\"wilma\", \"betty\", \"barney\"]), \"dino\" : set([\"betty\", \"barney\", \"bam-bam\"]) }",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "{ \"jon\" : set([\"arya\", \"tyrion\"]), \"tyrion\" : set([\"jon\", \"jaime\", \"pod\"]), \"arya\" : set([\"jon\"]), \"jaime\" : set([\"tyrion\", \"brienne\"]), \"brienne\" : set([\"jaime\", \"pod\"]), \"pod\" : set([\"tyrion\", \"brienne\"]), \"ramsay\" : set([]) }",
+                    "output": "{ \"jon\" : set([\"jaime\", \"pod\"]), \"tyrion\" : set([\"arya\", \"brienne\"]), \"arya\" : set([\"tyrion\"]), \"jaime\" : set([\"jon\", \"pod\"]), \"brienne\" : set([\"tyrion\"]), \"pod\" : set([\"jon\", \"jaime\"]), \"ramsay\" : set([]) }",
+                    "secret": false
+                }
+            ]
+        },
+        "willPass": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "willPass",
+                "brief_description": "p1-1",
+                "description": "To pass a class, you must get a grade of 60 or higher. Write a function to determine whether the given grade will get a pass.",
+                "skeleton": "def willPass(grade):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "PassingGrade",
+                    "input": "75",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "FailingGrade",
+                    "input": "32",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeCase1",
+                    "input": "60",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeCase2",
+                    "input": "59",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isWeekend": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "isWeekend",
+                "brief_description": "p1-2",
+                "description": "Write a function that will alert the user about whether it is the weekend yet, based on the current day (provided as a string).",
+                "skeleton": "def isWeekend(day):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Monday",
+                    "input": "\"Monday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Tuesday",
+                    "input": "\"Tuesday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Wednesday",
+                    "input": "\"Wednesday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Thursday",
+                    "input": "\"Thursday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Friday",
+                    "input": "\"Friday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Saturday",
+                    "input": "\"Saturday\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Sunday",
+                    "input": "\"Sunday\"",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "hasTwoDigits": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "hasTwoDigits",
+                "brief_description": "p1-3",
+                "description": "Write a function that determines whether the given positive number has exactly two digits.",
+                "skeleton": "def hasTwoDigits(x):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Lower",
+                    "input": "5",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Higher",
+                    "input": "1569",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Middle",
+                    "input": "56",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeLower1",
+                    "input": "9",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeLower2",
+                    "input": "10",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeHigher1",
+                    "input": "99",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeHigher2",
+                    "input": "100",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "onlyOneTrue": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "onlyOneTrue",
+                "brief_description": "p1-4",
+                "description": "Write a function that returns true if only one of the two given parameters is true. (Note- the normal ‘or’ operator returns true when both are true.)",
+                "skeleton": "def onlyOneTrue(b1, b2):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "F2",
+                    "input": "False,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TF",
+                    "input": "True,False",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "FT",
+                    "input": "False,True",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TT",
+                    "input": "True,True",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isNegative": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "isNegative",
+                "brief_description": "p2-1",
+                "description": "A number is only considered negative if it’s less than 0. Write a function that determines whether the given number is negative.",
+                "skeleton": "def isNegative(x):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Negative",
+                    "input": "-23",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Postitive",
+                    "input": "34",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge1",
+                    "input": "-1",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge2",
+                    "input": "0",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isConnected": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "isConnected",
+                "brief_description": "p2-2",
+                "description": "Write a function which, when given a continent name, returns whether that continent is connected to any other continents or not. (Hint- only two continents are entirely surrounded by ocean!).",
+                "skeleton": "def isConnected(continent):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Asia",
+                    "input": "\"Asia\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Europe",
+                    "input": "\"Europe\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Africa",
+                    "input": "\"Africa\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "NorthAmerica",
+                    "input": "\"North America\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "SouthAmerica",
+                    "input": "\"South America\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Australia",
+                    "input": "\"Australia\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Antarctica",
+                    "input": "\"Antarctica\"",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "avocados": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "avocados",
+                "brief_description": "p2-3",
+                "description": "You just bought avocados at the grocery store! They won’t be ripe for another two days, but after those two days you’ll need to eat them within a week, before they go bad. Write a function that takes the number of days that have passed to determine whether or not you can eat avocados.",
+                "skeleton": "def avocados(daysPassed):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Lower",
+                    "input": "1",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Higher",
+                    "input": "14",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Middle",
+                    "input": "5",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge1",
+                    "input": "2",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge2",
+                    "input": "3",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge3",
+                    "input": "9",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Edge4",
+                    "input": "10",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "onlyTwoTrue": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "onlyTwoTrue",
+                "brief_description": "p2-4",
+                "description": "Write a function that returns true if exactly two of the three given parameters are true.",
+                "skeleton": "def onlyTwoTrue(b1, b2, b3):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "FFF",
+                    "input": "False,False,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "FFT",
+                    "input": "False,False,True",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "FTF",
+                    "input": "False,True,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TFF",
+                    "input": "True,False,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "FTT",
+                    "input": "False,True,True",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TFT",
+                    "input": "True,False,True",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TTF",
+                    "input": "True,True,False",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TTT",
+                    "input": "True,True,True",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "overNineThousand": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "overNineThousand",
+                "brief_description": "exercise-1",
+                "description": "Write a function which determines whether the given input is over 9000!",
+                "skeleton": "def overNineThousand(powerLevel):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Lower",
+                    "input": "7400",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Higher",
+                    "input": "10546",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeLower",
+                    "input": "9000",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeHigher",
+                    "input": "9001",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "firstHalf": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "firstHalf",
+                "brief_description": "exercise-2",
+                "description": "In python you can compare strings like you compare numbers (using alphabetical order); for example, the string ‘abcd’ is less than the string ‘zyxw’. Write a function that determines whether the given string starts with a letter in the first half of the alphabet (before ’N’). (Hint: you can assume that the first letter will be uppercase).",
+                "skeleton": "def firstHalf(s):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "FirstHalf",
+                    "input": "'H'",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "SecondHalf",
+                    "input": "'S'",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeFirst",
+                    "input": "'M'",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeSecond",
+                    "input": "'N'",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isLowerCase": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "isLowerCase",
+                "brief_description": "exercise-3",
+                "description": "A letter is lowercase if it comes between ‘a’ and ‘z’. Write a function that determines whether the given letter is lowercase.",
+                "skeleton": "def isLowerCase(letter):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "NonLetter1",
+                    "input": "'}'",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "NonLetter2",
+                    "input": "'4'",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "UpperCase",
+                    "input": "'M'",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerCase",
+                    "input": "'s'",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerCaseEdge1",
+                    "input": "'a'",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerCaseEdge2",
+                    "input": "'z'",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerCaseEdge3",
+                    "input": "'{'",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerCaseEdge4",
+                    "input": "'`'",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "teenagedNotPrime": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "teenagedNotPrime",
+                "brief_description": "exercise-4",
+                "description": "A person is generally considered to be a teenager between the ages of 13 and 18. Write a function which determines whether the given age is both teenaged and not prime. (Hint: only 13 and 17 are primes in that range).",
+                "skeleton": "def teenagedNotPrime(age):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "LowerAge",
+                    "input": "12",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "HigherAge",
+                    "input": "21",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TeenAge",
+                    "input": "16",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "PrimeTeenAge",
+                    "input": "17",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerEdge1",
+                    "input": "13",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerEdge2",
+                    "input": "14",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "UpperEdge1",
+                    "input": "18",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "UpperEdge2",
+                    "input": "19",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "canDrinkAlcohol": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "canDrinkAlcohol",
+                "brief_description": "exercise-5",
+                "description": "A person can only drink alcohol if they’re 21 or older and aren’t planning on driving. Write a function which, given these two variables, determines whether or not you can drink.",
+                "skeleton": "def canDrinkAlcohol(age, isDriving):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Driving",
+                    "input": "33,True",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Underage",
+                    "input": "15,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "Overage",
+                    "input": "45,False",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeAge1",
+                    "input": "20,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "EdgeAge2",
+                    "input": "21,False",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "isCandyShopOpen": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "isCandyShopOpen",
+                "brief_description": "exercise-6",
+                "description": "The candy shop around the corner is open between 1pm and 7pm every day, except for Wednesdays, when it’s closed. Write a function to tell whether or not it’s open given the current time (expressed as the hour) and day of week.",
+                "skeleton": "def isCandyShopOpen(time, day):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "Wednesday",
+                    "input": "5,\"Wednesday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TooEarly",
+                    "input": "-1,\"Thursday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "TooLate",
+                    "input": "9,\"Monday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "JustRight",
+                    "input": "3,\"Tuesday\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerEdge1",
+                    "input": "0,\"Thursday\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "LowerEdge2",
+                    "input": "1,\"Friday\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "UpperEdge1",
+                    "input": "6,\"Saturday\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "UpperEdge2",
+                    "input": "7,\"Sunday\"",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "withinFive": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "withinFive",
+                "brief_description": "exercise-7",
+                "description": "Write a function which determines whether a number is within five of another number.",
+                "skeleton": "def withinFive(x, y):\n    return",
+                "schema_version": 4,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "http://www.krivers.net",
+                "timestamp_utc": 1420131600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "xLess",
+                    "input": "0,9",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "yLess",
+                    "input": "8,1",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "innerOne",
+                    "input": "2,4",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "innerTwo",
+                    "input": "9,6",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "edgeCase1",
+                    "input": "9,14",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "edgeCase2",
+                    "input": "10,14",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "edgeCase3",
+                    "input": "17,12",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "edgeCase4",
+                    "input": "17,13",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "helloWorld": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "hello_world",
+                "brief_description": "0-parameter,strings",
+                "description": "Write a function, hello_world, which takes no parameters and \nreturns the string \"Hello World!\".",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "",
+                    "output": "\"Hello World!\"",
+                    "secret": false
+                }
+            ]
+        },
+        "doubleX": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "double_x",
+                "brief_description": "1-parameter,numbers",
+                "description": "Write a function, double_x, which takes one parameter (x) and \nreturns that value multiplied by two.",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "1.0",
+                    "output": "2.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "-4",
+                    "output": "-8",
+                    "secret": false
+                }
+            ]
+        },
+        "raiseToPower": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "raise_to_power",
+                "brief_description": "1-parameter,numbers",
+                "description": "Write a function, raise_to_power, which takes two parameters \n(x and y) and returns the first raised to the exponential power \nof the second.",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "3,1",
+                    "output": "3",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "4,0.5",
+                    "output": "2.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "3.0,2",
+                    "output": "9.0",
+                    "secret": false
+                }
+            ]
+        },
+        "convertToDegrees": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "convert_to_degrees",
+                "brief_description": "1-parameter,math-functions",
+                "description": "Given an angle x in radians, write a function, \nconvert_to_degrees, which converts it to the same angle in \ndegrees and return the resulting value. You can do this by \nimporting the math module and using the degrees function.",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "0.0",
+                    "output": "0.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "3.141592",
+                    "output": "179.999962552",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "-1.570796",
+                    "output": "-89.999981276",
+                    "secret": false
+                }
+            ]
+        },
+        "isPunctuation": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "is_punctuation",
+                "brief_description": "1-parameter,string-functions,string-ops,strings",
+                "description": "Given a one-character string, write a function, is_punctuation, \nwhich returns whether that character is a punctuation mark. \nHint: you can do this by importing the string module and using \nthe built-in punctuation value.",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "\":\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"!\"",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "\"h\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "\"5\"",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "findRoot": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "find_root",
+                "brief_description": "multi-parameter,assignment,numbers,problem-solving",
+                "description": "Recall the quadratic formula: \n<img src=\"http://www.kosbie.net/cmu/fall-13/15-112/handouts/quiz1_files/image002.jpg\"/><br>.\nUsing this formula, write the function find_root, which takes \nthree parameters (a, b, and c) and returns the larger of the \ntwo values computed by the quadratic formula shown above.",
+                "skeleton": "",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "1,2,1",
+                    "output": "-1.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "2,4,2",
+                    "output": "-1.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "-2,-4,-2",
+                    "output": "-1.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1,-7,12",
+                    "output": "4.0",
+                    "secret": false
+                }
+            ]
+        },
+        "intToFloat": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "int_to_float",
+                "brief_description": "numbers",
+                "description": "Given an integer, x, return the same number as a floating \npoint value.",
+                "skeleton": "def int_to_float(x):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "2",
+                    "output": "2.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "-1",
+                    "output": "-1.0",
+                    "secret": false
+                }
+            ]
+        },
+        "leftoverCandy": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "leftover_candy",
+                "brief_description": "numbers,modulus",
+                "description": "Given a number of candy bars and a number of friends, return how many candy bars will be left over after the candy has been divided equally amongst all the friends.",
+                "skeleton": "def leftover_candy(candy_bars, friends):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "5,2",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "9,3",
+                    "output": "0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "10,4",
+                    "output": "2",
+                    "secret": false
+                }
+            ]
+        },
+        "howManyEggCartons": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "how_many_egg_cartons",
+                "brief_description": "numbers,division",
+                "description": "Given a number of eggs (as an integer), return the number of \negg cartons needed to hold that many eggs. Cartons hold 12 eggs \neach, so from 1 to 12 eggs requires one carton, 13 to 24 \nrequires two, etc.",
+                "skeleton": "def how_many_egg_cartons(eggs):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "0",
+                    "output": "0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1",
+                    "output": "1",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "24",
+                    "output": "2",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "37",
+                    "output": "4",
+                    "secret": false
+                }
+            ]
+        },
+        "kthDigit": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "kth_digit",
+                "brief_description": "numbers,modulus",
+                "description": "Given a number, x, return the kth digit (from the back) of x. \nIn the number 1234, the 1st digit is 4, the 2nd is 3, etc. You \ncan assume that x is positive.",
+                "skeleton": "def kth_digit(x, k):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "4,1",
+                    "output": "4",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "123,2",
+                    "output": "2",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "5003,3",
+                    "output": "0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "98,1",
+                    "output": "8",
+                    "secret": false
+                }
+            ]
+        },
+        "nearestBusStop": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "nearest_bus_stop",
+                "brief_description": "division,modulus,numbers",
+                "description": "Write a function that takes a non-negative street number and \nreturns the nearest bus stop to the given street. Buses stop \nevery 8th street, including street 0, and ties go to the lower \nstreet, so the nearest bus stop to 12th street is 8th street, \nand the nearest bus stop to the 13th street is 16th street.",
+                "skeleton": "def nearest_bus_stop(street):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "12",
+                    "output": "8",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "3",
+                    "output": "0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "13",
+                    "output": "16",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "8",
+                    "output": "8",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "7",
+                    "output": "8",
+                    "secret": false
+                }
+            ]
+        },
+        "backwardsCombine": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "backwards_combine",
+                "brief_description": "strings",
+                "description": "Given two strings, s1 and s2, return a single string that \ncombines the two, with s2 in front.",
+                "skeleton": "def backwards_combine(s1, s2):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "\"there\",\"hello\"",
+                    "output": "\"hellothere\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"\",\"ooh\"",
+                    "output": "\"ooh\"",
+                    "secret": false
+                }
+            ]
+        },
+        "firstAndLast": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "first_and_last",
+                "brief_description": "strings,string-index",
+                "description": "Given a string, s, return the combination of the first letter \nand the last letter of the string. You can assume that s is at\nleast two characters long.",
+                "skeleton": "def first_and_last(s):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "\"abcde\"",
+                    "output": "\"ae\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"to\"",
+                    "output": "\"to\"",
+                    "secret": false
+                }
+            ]
+        },
+        "singlePigLatin": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "single_pig_latin",
+                "brief_description": "strings,string-index,string-slice",
+                "description": "Given a string, s, return that word translated to pig latin. \nPig latin is a made-up language where, for each ordinary word, \nyou move the first letter to the back of the word and add 'ay' \nto the end. So 'hello' becomes 'ellohay'.",
+                "skeleton": "def single_pig_latin(s):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "\"hello\"",
+                    "output": "\"ellohay\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"salamander\"",
+                    "output": "\"alamandersay\"",
+                    "secret": false
+                }
+            ]
+        },
+        "over_nine_thousand": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "over_nine_thousand",
+                "brief_description": "numbers,relational-ops",
+                "description": "Write a function which determines whether the given input is \nover 9000!",
+                "skeleton": "def over_nine_thousand(power_level):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "-10",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "8999",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "9000",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "9001",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "10400",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "has_two_digits": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "has_two_digits",
+                "brief_description": "numbers,relational-ops",
+                "description": "Write a function that determines whether the given positive \nnumber has exactly two digits.",
+                "skeleton": "def has_two_digits(x):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "5",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1569",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "56",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "9",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "10",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t5",
+                    "input": "99",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t6",
+                    "input": "100",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "can_drink_alcohol": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "can_drink_alcohol",
+                "brief_description": "numbers,booleans,relational-ops,logical-ops,problem-solving",
+                "description": "A person can only drink alcohol if they're 21 or older and \naren't planning on driving. Write a function which, given \nthese two variables, determines whether or not you can drink.",
+                "skeleton": "def can_drink_alcohol(age, is_driving):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "33,True",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "15,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "45,False",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "20,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "21,False",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "isEvenPositiveInt": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "is_even_positive_int",
+                "brief_description": "numbers,types,relational-ops,problem-solving",
+                "description": "Given an arbitrary value x, return True if it is an integer, \nand it is positive, and it is even (all 3 must be True), or \nFalse otherwise. Do not crash if the value is not an integer. \nSo, the input \"yikes!\" returns False (rather than crashing), \nand the input 123456 returns True.",
+                "skeleton": "def is_even_positive_int(x):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "2",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "2040608",
+                    "output": "True",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "21",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "0",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "\"yikes!\"",
+                    "output": "False",
+                    "secret": false
+                }
+            ]
+        },
+        "isSubstring": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "is_substring",
+                "brief_description": "types,relational-ops,strings",
+                "description": "<p><b>UPDATE:</b> There was a bug in Cloudcoder that caused some\n    correct solutions to this problem to be evaluated as incorrect.\n    This has now been fixed; feel free to resubmit!\n</p>\n\n<p>Given arbitrary values s and t, return True if both values are \nstrings and s is a substring of t.</p>",
+                "skeleton": "def is_substring(s, t):\n\treturn",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "1, \"123\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "\"1\", 123",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "True,False",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "\"123\", \"1\"",
+                    "output": "False",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t4",
+                    "input": "\"23\", \"123\"",
+                    "output": "True",
+                    "secret": false
+                }
+            ]
+        },
+        "oneToN": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "one_to_n",
+                "brief_description": "for-loop,range,accumulator,strings",
+                "description": "Given a number n, return a string that contains the numbers \nfrom 1 to n. (So 5 results in \"12345\")",
+                "skeleton": "def one_to_n(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "5",
+                    "output": "\"12345\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "1",
+                    "output": "\"1\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "10",
+                    "output": "\"12345678910\"",
+                    "secret": false
+                }
+            ]
+        },
+        "sumOfDigits": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "sum_of_digits",
+                "brief_description": "while,accumulator,modulus,division,numbers,problem-solving",
+                "description": "Given a number n, return the sum of n's digits.",
+                "skeleton": "def sum_of_digits(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "123",
+                    "output": "6",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "2",
+                    "output": "2",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "8904",
+                    "output": "21",
+                    "secret": false
+                }
+            ]
+        },
+        "createNumberBlock": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "create_number_block",
+                "brief_description": "nested-for-loop,range,accumulator,string,problem-solving",
+                "description": "<p>Given a number, n, return a string that contains an n by n \nblock of numbers, with 1 in the top left corner and each \nfollowing number (down and to the left) increasing by one. \nAs an example, given the number 3, the resulting text would be:\n</p>\n\n<p>123<br>\n234<br>\n345<br></p>\n\n<p>The lines of text should be separated by newlines, with a \ntrailing newline at the end.</p>",
+                "skeleton": "def create_number_block(n):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "3",
+                    "output": "\"123\\n234\\n345\\n\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "5",
+                    "output": "\"12345\\n23456\\n34567\\n45678\\n56789\\n\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "2",
+                    "output": "\"12\\n23\\n\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t3",
+                    "input": "1",
+                    "output": "\"1\\n\"",
+                    "secret": false
+                }
+            ]
+        },
+        "carefulSquareRoot": {
+            "problem_data": {
+                "problem_type": 1,
+                "testname": "careful_square_root",
+                "brief_description": "if-edge-case,numbers,strings,relational-ops",
+                "description": "Given a number x, if x is less than 0, return \"Error\". \nOtherwise, return the square root of the number.",
+                "skeleton": "def careful_square_root(x):\n    return",
+                "schema_version": 7,
+                "author_name": "Kelly Rivers",
+                "author_email": "krivers@andrew.cmu.edu",
+                "author_website": "krivers.net",
+                "timestamp_utc": 1451667600000,
+                "license": 1,
+                "parent_hash": "",
+                "external_library_url": "",
+                "external_library_md5": ""
+            },
+            "test_case_data_list": [
+                {
+                    "test_case_name": "t0",
+                    "input": "-1",
+                    "output": "\"Error\"",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t1",
+                    "input": "0",
+                    "output": "0.0",
+                    "secret": false
+                },
+                {
+                    "test_case_name": "t2",
+                    "input": "9",
+                    "output": "3.0",
+                    "secret": false
+                }
+            ]
+        }
+    }
+}

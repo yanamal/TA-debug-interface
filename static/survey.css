@@ -1,0 +1,7 @@
+#container {
+    width: 600px;
+    margin: auto;
+}
+#container div{
+    margin-bottom: 20px;
+}
